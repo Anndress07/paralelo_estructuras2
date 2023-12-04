@@ -7,5 +7,5 @@ Se implementa el algoritmo de regla del trapecio para el cálculo de áreas bajo
 
 
 ## Compilación
-Sin paralelización: gcc -o ejemplo trapezoidal.c -lm
+Sin paralelización: gcc -o ejemplo trapezoidal.c -lm \\
 Con paralelización: gcc -o openmp01 -fopenmp trapezoidal_paralelo.c -lm
