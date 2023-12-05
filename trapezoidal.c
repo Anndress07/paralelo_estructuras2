@@ -1,4 +1,4 @@
-/* Version serial de la regla de trapezoide
+/* Version serial de la regla de trapecio
  * para calcular el area bajo la curva de una función */
 
 #include <stdio.h>
@@ -13,9 +13,9 @@ int main(void) {
     clock_t start, end;
     double cpu_time_used;
     double lim_izq,  lim_der, resultado_final;
-    int num_trapecios;
-    num_trapecios = 1500000000;
-     lim_izq = 0.0;
+    long int num_trapecios;
+    num_trapecios = 10000000000;
+    lim_izq = 0.0;
      lim_der = pi;
     resultado_final = 0.0;
     start = clock();
